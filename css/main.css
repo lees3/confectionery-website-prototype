@@ -17,8 +17,21 @@ html {
   box-sizing: inherit;
 }
 
+header nav a {
+  text-decoration: none;
+}
+
+
 header nav a:hover {
-  colour: #fff;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
