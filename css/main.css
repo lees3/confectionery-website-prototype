@@ -21,26 +21,39 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  margin-bottom: 2em;
+  padding-top: 0;
+}
+
+header {
+  background-color: #300;
+  padding-bottom: 1em;
 }
 
 header h1 {
   text-align: center;
   color: #fff;
+  margin: 0;
 }
 
 header p {
   text-align: center;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 header nav a {
   text-decoration: none;
   color: #fff;
+  font-size: 1.3rem;
 }
 
 header nav a:hover {
   color: #000;
+}
+
+.menu {
+  background-color: #300;
 }
 
 ul {
@@ -55,14 +68,14 @@ ul {
 .menu-placeholder img {
   display: block;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
 }
-
 
 .menu h3 {
   font-weight: bold;
   position: relative;
   bottom: 3em;
+  left: .5em;
   color: #000;
 }
 
@@ -72,8 +85,19 @@ ul {
   bottom: 2em;
 }
 
+.map-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  left: 18em;
+  top: 168em;
+}
+
 footer {
   font-style: italic;
+  background-color: #300;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 25em) {
