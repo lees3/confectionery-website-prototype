@@ -19,33 +19,34 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 1em;
-  margin-bottom: 2em;
-  padding-top: 0;
-}
-
 header {
   background-color: #300;
   padding-bottom: 1em;
+  margin: -1em;
 }
 
 header h1 {
   text-align: center;
   color: #fff;
-  margin: 0;
+  padding: .5em;
+  padding-bottom: 0;
 }
 
 header p {
   text-align: center;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+body {
+  margin: 1em;
+  margin-bottom: 2em;
 }
 
 header nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 header nav a:hover {
@@ -59,15 +60,17 @@ header nav a:hover {
 
 ul {
   list-style-type: none;
+  line-height: 1.5;
+  padding: 1.5em;
 }
 
-.main-placeholder img {
+.about-photo img {
   display: block;
   width: 100%;
   padding-left: .5em;
 }
 
-.menu-placeholder img {
+.menu-photo img {
   display: block;
   width: 100%;
   max-width: 350px;
@@ -87,20 +90,23 @@ ul {
   bottom: 2em;
 }
 
-.map-placeholder img {
-  display: block;
+.map img {
+  display: inline-block;
   width: 100%;
-  max-width: 200px;
-  position: absolute;
-  left: 18em;
-  top: 168em;
+  max-width: 400px;
 }
+
 
 footer {
   font-style: italic;
   background-color: #300;
   padding: 1em;
   margin: -1em;
+  margin-top: 1em;
+}
+
+.white-text {
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
