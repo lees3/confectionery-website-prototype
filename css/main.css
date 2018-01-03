@@ -68,12 +68,13 @@ ul {
   display: block;
   width: 100%;
   padding-left: .5em;
+  max-width: 320px;
 }
 
 .menu-photo img {
   display: block;
   width: 100%;
-  max-width: 350px;
+  max-width: 320px;
 }
 
 .menu h3 {
@@ -93,7 +94,7 @@ ul {
 .map img {
   display: inline-block;
   width: 100%;
-  max-width: 400px;
+  max-width: 320px;
 }
 
 
