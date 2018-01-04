@@ -86,6 +86,10 @@ header nav a:hover {
   bottom: 2em;
 }
 
+.contact {
+  text-align: center;
+}
+
 .map img {
   width: 100%;
   max-width: 400px;
@@ -94,8 +98,8 @@ header nav a:hover {
 footer {
   font-style: italic;
   background-color: #300;
-  padding: 1em;
-  margin: 1em -1em;
+  padding: 1rem;
+  margin-bottom: -1rem;
   text-align: center;
 }
 
@@ -124,6 +128,12 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .map img {
+    position: absolute;
+    right: 2rem;
+    max-width: 330px;
   }
 }
 
