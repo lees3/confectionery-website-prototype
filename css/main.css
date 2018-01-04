@@ -20,37 +20,40 @@ html {
 }
 
 header {
+  text-align: center;
   background-color: #300;
-  padding-bottom: 1em;
-  margin: -1em;
+  margin: -1rem;
+  padding: 1rem;
 }
 
 header h1 {
-  text-align: center;
-  color: #fff;
-  padding: .5em;
-  padding-bottom: 0;
+  margin: 0 0 .5rem;
 }
 
 header p {
-  text-align: center;
-  color: #fff;
   font-size: 1rem;
 }
 
 body {
-  margin: 1em;
-  margin-bottom: 2em;
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
 }
 
 header nav a {
+  display: block;
+  padding: .5em .75em;
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
 }
 
 header nav a:hover {
-  color: #000;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .menu {
@@ -58,23 +61,16 @@ header nav a:hover {
   margin: -1em;
 }
 
-ul {
-  list-style-type: none;
-  line-height: 1.5;
-  padding: 1.5em;
-}
-
 .about-photo img {
   display: block;
   width: 100%;
   padding-left: .5em;
-  max-width: 320px;
 }
 
 .menu-photo img {
   display: block;
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
 }
 
 .menu h3 {
@@ -86,24 +82,21 @@ ul {
 }
 
 .menu p {
-  margin: 0;
   position: relative;
   bottom: 2em;
 }
 
 .map img {
-  display: inline-block;
   width: 100%;
-  max-width: 320px;
+  max-width: 400px;
 }
-
 
 footer {
   font-style: italic;
   background-color: #300;
   padding: 1em;
-  margin: -1em;
-  margin-top: 1em;
+  margin: 1em -1em;
+  text-align: center;
 }
 
 .white-text {
@@ -112,10 +105,10 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  html {
-
+  nav li {
+    display: inline-block;
+    text-align: center;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
