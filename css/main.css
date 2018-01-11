@@ -22,7 +22,6 @@ html {
 header {
   text-align: center;
   background-color: #300;
-  margin: -1rem;
   padding: 1rem;
 }
 
@@ -35,7 +34,7 @@ header p {
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
 }
 
 .img-flex {
@@ -47,6 +46,7 @@ ul {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 a {
@@ -71,6 +71,10 @@ header nav a:hover {
   width: 100%;
 }
 
+.menu h2 {
+  text-align: center;
+}
+
 .menu h3 {
   font-weight: bold;
   padding: 1rem;
@@ -80,6 +84,10 @@ header nav a:hover {
 
 .menu p {
   text-align: center;
+}
+
+.about-text {
+  padding: 0 1rem 2rem;
 }
 
 .link-card {
