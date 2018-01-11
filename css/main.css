@@ -113,6 +113,7 @@ header nav a:hover {
 
 .where-are-we {
   text-align: center;
+  padding-top: 1rem;
   position: relative;
   margin: auto;
   width: 350px;
@@ -120,7 +121,7 @@ header nav a:hover {
 
 .contact {
   text-align: center;
-  padding: 1rem;
+  padding-top: 1rem;
   margin: auto;
   width: 350px;
 }
