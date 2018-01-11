@@ -45,6 +45,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -80,14 +81,6 @@ header nav a:hover {
   text-align: center;
 }
 
-.hours {
-  text-align: left;
-}
-
-.contact {
-  text-align: left;
-}
-
 .link-card {
   display: inline-block;
   color: #fff;
@@ -101,9 +94,23 @@ header nav a:hover {
   max-width: 20em;
 }
 
+.hours {
+  text-align: left;
+  padding-top: 3rem;
+}
+
 .where-are-we {
   text-align: left;
   position: relative;
+}
+
+.contact {
+  text-align: left;
+  padding: 1rem;
+}
+
+.map {
+  max-width: 500px;
 }
 
 .btn {
@@ -173,7 +180,7 @@ footer {
   }
 
   .link-card {
-    bottom-margin: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
